@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Hot or Cold Game</h1>
+
+    <div id="guess-info">
+      <p>Player's Guess: <span id="current-guess">50</span></p>
+      <p>Guesses Left: <span id="guesses-remaining">5</span></p>
+    </div>
+
+    <div id="guess-controls">
+      <div class="button-group">
+        <button id="s-25">-25 </button>
+        <button id="s-10">-10 </button>
+        <button id="s-5">-5 </button>
+        <button id="s-1">-1 </button>
+      </div>
+      <div class="button-group">
+        <button id="Guess">Guess</button>
+        <button id="reset">Reset</button>
+      </div>
+      <div class="button-group">
+        <button id="a-1">+1</button>
+        <button id="a-5">+5</button>
+        <button id="a-10">+10</button>
+        <button id="a-25">+25</button>
+      </div>
+    </div>
+
+    <div id="log">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
